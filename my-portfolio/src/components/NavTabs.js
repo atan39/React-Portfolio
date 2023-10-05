@@ -1,53 +1,50 @@
 import React from 'react';
 
+
 function NavTabs({ currentPage, handlePageChange }) {
-    return (
+  return (
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <a
+          href="#About"
+          onClick={() => handlePageChange('About')}
+          className={`nav-link ${currentPage === 'About' ? 'active' : ''}`}
+        >
+          About
+        </a>
+      </li>
 
-        <ul className="nav nav-tabs"> 
-            <li className="nav-item">
-                <a
-                //adds About nav item
-                    href="#About"
-                    onClick={() => handlePageChange('About')}
-                    className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-                >
-                    About
-                </a>
-            </li>
+      <li className="nav-item">
+        <a
+          href="#Contact"
+          onClick={() => handlePageChange('Contact')}
+          className={`nav-link ${currentPage === 'Contact' ? 'active' : ''}`}
+        >
+          Contact
+        </a>
+      </li>
 
-            <li className="nav-item">
-                <a
-                //adds Contact nav item
-                    href="#Contact"
-                    onClick={() => handlePageChange('Contact')}
-                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-                >
-                    Contact
-                </a>
-            </li>
+      <li className="nav-item">
+        <a
+          href="#Portfolio"
+          onClick={() => handlePageChange('Portfolio')}
+          className={`nav-link ${currentPage === 'Portfolio' ? 'active' : ''}`}
+        >
+          Portfolio
+        </a>
+      </li>
 
-            <li className="nav-item">
-                <a
-                //adds Portfolio nav item
-                    href="#Portfolio"
-                    onClick={() => handlePageChange('Portfolio')}
-                    className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-                >
-                    Portfolio
-                </a>
-            </li>
+      <li className="nav-item">
+        <a
+          href="#Resume"
+          onClick={() => handlePageChange('Resume')}
+          className={`nav-link ${currentPage === 'Resume' ? 'active' : ''}`}
+        >
+          Resume
+        </a>
+      </li>
+    </ul>
+  );
+}
 
-            <li className="nav-item">
-                <a
-                //adds Resume nav item
-                    href="#Resume"
-                    onClick={() => handlePageChange('Resume')}
-                    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-                >
-                    Resume
-                </a>
-            </li>
-        </ul>
-    );
-};
 export default NavTabs;

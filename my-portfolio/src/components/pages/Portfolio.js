@@ -9,74 +9,136 @@ import weather from "../images/weather.PNG";
 export default function Portfolio() {
   return (
     <div>
-      <h1>Portfolio Page</h1>
       <h2>Portfolio</h2>
 
-      <div>
-        <h4>Workday Scheduler</h4>
-        <img src={workdayImage} alt="Workday Scheduler" /> <br></br>
-        <a href="https://atan39.github.io/Workday-Scheduler/">
-          Live Website
-        </a>
-        <br></br>
-        <a href="https://github.com/atan39/Workday-Scheduler">
-          Github Repository
-        </a>
+      <div className="row">
+        <div className="col-md-4">
+          <div className="card">
+            <div className="card">
+              <h4>Workday Scheduler</h4>
+            <img
+              src={workdayImage}
+              alt="Workday Scheduler"
+              className="card-img-top"
+            />
+              <p className="card-text">
+                Description of Workday Scheduler project.
+              </p>
+              <a
+                href="https://atan39.github.io/Workday-Scheduler/"
+                className="btn btn-primary"
+              >
+                Live Website
+              </a>
+              <a
+                href="https://github.com/atan39/Workday-Scheduler"
+                className="btn btn-secondary"
+              >
+                Github Repository
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4">
+          <div className="card">
+            <div className="card">
+              <h4 className="card-title">Password Generator</h4>
+            <img
+              src={pwgenImage}
+              alt="Password Generator"
+              className="card-img-top"
+            />
+              <p className="card-text">
+                Description of Password Generator project.
+              </p>
+              <a
+                href="https://atan39.github.io/Password-Generator/"
+                className="btn btn-primary"
+              >
+                Live Website
+              </a>
+              <a
+                href="https://github.com/atan39/Password-Generator"
+                className="btn btn-secondary"
+              >
+                Github Repository
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4">
+          <div className="card">
+            <div className="card">
+              <h4>Timed Quiz</h4>
+            <img
+              src={javaQuiz}
+              alt="Javascript Quiz"
+              className="card-img-top"
+            />
+              <p className="card-text">Description of Timed Quiz project.</p>
+              <a
+                href="https://atan39.github.io/Timed-Javascript-Quiz/"
+                className="btn btn-primary"
+              >
+                Live Website
+              </a>
+              <a
+                href="https://github.com/atan39/Timed-Javascript-Quiz"
+                className="btn btn-secondary"
+              >
+                Github Repository
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div>
-        <h4>Password Generator</h4>
-        <img src={pwgenImage} alt="Password Generator" />
-        <a href="https://atan39.github.io/Password-Generator/">
-          Live Website
-        </a>
-        <br></br>
-        <a href="https://github.com/atan39/Password-Generator">
-          Github Repository
-        </a>
-      </div>
+      <div className="row">
+        <div className="col-md-4">
+          <div className="card">
+            <h4>Netflix and Cocktails</h4>
+            <img src={netflix} alt="NetflixnChill" />
+            <a href="https://sirmodv.github.io/Netflix-Cocktail-s/"
+             className="btn btn-primary">
+              Live Website
+            </a>
+            <a href="https://github.com/SirModV/Netflix-Cocktail-s"
+            className="btn btn-secondary">
+              Github Repository
+            </a>
+          </div>
+        </div>
 
-      <div>
-        <h4>Timed Quiz</h4>
-        <img src={javaQuiz} alt="Javascript Quiz" /> <br></br>
-        <a href="https://atan39.github.io/Timed-Javascript-Quiz/">
-          Live Website
-        </a>
-        <br></br>
-        <a href="https://github.com/atan39/Timed-Javascript-Quiz">
-          Github Repository
-        </a>
-      </div>
-      <div>
-        <h4>Netflix and Cocktails</h4>
-        <img src={netflix} alt="NetflixnChill" />
-        <a href="https://sirmodv.github.io/Netflix-Cocktail-s/">
-          Live Website
-        </a>
-        <br></br>
-        <a href="https://github.com/SirModV/Netflix-Cocktail-s">
-          Github Repository
-        </a>
-      </div>
-      <div>
-        <h4>Weeaboo Wisdom</h4>
-        <img src={weeaboowiz} alt="Weeaboo Wisdom" />
-        <a href="https://weeaboo-wisdomm-04ded8f01ad7.herokuapp.com/">
-          Live Website
-        </a>
-        <br></br>
-        <a href="https://github.com/atan39/Weeaboo-Wisdom">Github Repository</a>
-      </div>
-      <div>
-        <h4>Weather Forecast</h4>
-        <img src={weather} alt="Weather Forecast" />
-        <a href="https://atan39.github.io/Weather-Forecast/">
-          Live Website
-        </a>
-        <br></br>
-        <a href="https://github.com/atan39/Weather-Forecast">
-          Github Repository
-        </a>
+        <div className="col-md-4">
+          <div className="card">
+            <h4>Weeaboo Wisdom</h4>
+            <img src={weeaboowiz} alt="Weeaboo Wisdom" />
+            <a href="https://weeaboo-wisdomm-04ded8f01ad7.herokuapp.com/"
+             className="btn btn-primary">
+              Live Website
+            </a>
+            <a href="https://github.com/atan39/Weeaboo-Wisdom"
+            className="btn btn-secondary">
+              Github Repository
+            </a>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card">
+            <h4>Weather Forecast</h4>
+            <img src={weather} alt="Weather Forecast" />
+            <a href="https://atan39.github.io/Weather-Forecast/"
+             className="btn btn-primary">
+              Live Website
+            </a>
+            <a href="https://github.com/atan39/Weather-Forecast"
+            className="btn btn-secondary">
+              Github Repository
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
