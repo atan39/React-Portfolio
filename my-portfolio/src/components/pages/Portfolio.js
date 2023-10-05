@@ -12,18 +12,15 @@ export default function Portfolio() {
       <h2>Portfolio</h2>
 
       <div className="row">
-        <div className="col-md-4">
-          <div className="card">
-            <div className="card">
+        <div className="col-md-4 ">
+          <div className="card ">
+            <div className="card text-bg-info">
               <h4>Workday Scheduler</h4>
-            <img
-              src={workdayImage}
-              alt="Workday Scheduler"
-              className="card-img-top"
-            />
-              <p className="card-text">
-                Description of Workday Scheduler project.
-              </p>
+              <img
+                src={workdayImage}
+                alt="Workday Scheduler"
+                className="card-img-top"
+              />
               <a
                 href="https://atan39.github.io/Workday-Scheduler/"
                 className="btn btn-primary"
@@ -40,18 +37,16 @@ export default function Portfolio() {
           </div>
         </div>
 
+
         <div className="col-md-4">
           <div className="card">
-            <div className="card">
+            <div className="card card text-bg-info">
               <h4 className="card-title">Password Generator</h4>
-            <img
-              src={pwgenImage}
-              alt="Password Generator"
-              className="card-img-top"
-            />
-              <p className="card-text">
-                Description of Password Generator project.
-              </p>
+              <img
+                src={pwgenImage}
+                alt="Password Generator"
+                className="card-img-top"
+              />
               <a
                 href="https://atan39.github.io/Password-Generator/"
                 className="btn btn-primary"
@@ -70,14 +65,13 @@ export default function Portfolio() {
 
         <div className="col-md-4">
           <div className="card">
-            <div className="card">
+            <div className="card text-bg-info">
               <h4>Timed Quiz</h4>
-            <img
-              src={javaQuiz}
-              alt="Javascript Quiz"
-              className="card-img-top"
-            />
-              <p className="card-text">Description of Timed Quiz project.</p>
+              <img
+                src={javaQuiz}
+                alt="Javascript Quiz"
+                className="card-img-top"
+              />
               <a
                 href="https://atan39.github.io/Timed-Javascript-Quiz/"
                 className="btn btn-primary"
@@ -97,44 +91,56 @@ export default function Portfolio() {
 
       <div className="row">
         <div className="col-md-4">
-          <div className="card">
+          <div className="card text-bg-info">
             <h4>Netflix and Cocktails</h4>
             <img src={netflix} alt="NetflixnChill" />
-            <a href="https://sirmodv.github.io/Netflix-Cocktail-s/"
-             className="btn btn-primary">
+            <a
+              href="https://sirmodv.github.io/Netflix-Cocktail-s/"
+              className="btn btn-primary"
+            >
               Live Website
             </a>
-            <a href="https://github.com/SirModV/Netflix-Cocktail-s"
-            className="btn btn-secondary">
+            <a
+              href="https://github.com/SirModV/Netflix-Cocktail-s"
+              className="btn btn-secondary"
+            >
               Github Repository
             </a>
           </div>
         </div>
 
         <div className="col-md-4">
-          <div className="card">
+          <div className="card text-bg-info">
             <h4>Weeaboo Wisdom</h4>
             <img src={weeaboowiz} alt="Weeaboo Wisdom" />
-            <a href="https://weeaboo-wisdomm-04ded8f01ad7.herokuapp.com/"
-             className="btn btn-primary">
+            <a
+              href="https://weeaboo-wisdomm-04ded8f01ad7.herokuapp.com/"
+              className="btn btn-primary"
+            >
               Live Website
             </a>
-            <a href="https://github.com/atan39/Weeaboo-Wisdom"
-            className="btn btn-secondary">
+            <a
+              href="https://github.com/atan39/Weeaboo-Wisdom"
+              className="btn btn-secondary"
+            >
               Github Repository
             </a>
           </div>
         </div>
         <div className="col-md-4">
-          <div className="card">
+          <div className="card text-bg-info">
             <h4>Weather Forecast</h4>
             <img src={weather} alt="Weather Forecast" />
-            <a href="https://atan39.github.io/Weather-Forecast/"
-             className="btn btn-primary">
+            <a
+              href="https://atan39.github.io/Weather-Forecast/"
+              className="btn btn-primary"
+            >
               Live Website
             </a>
-            <a href="https://github.com/atan39/Weather-Forecast"
-            className="btn btn-secondary">
+            <a
+              href="https://github.com/atan39/Weather-Forecast"
+              className="btn btn-secondary"
+            >
               Github Repository
             </a>
           </div>
