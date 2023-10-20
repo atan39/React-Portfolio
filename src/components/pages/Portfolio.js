@@ -5,6 +5,7 @@ import javaQuiz from "../images/javaquiz.PNG";
 import netflix from "../images/netflixnchill.PNG";
 import weeaboowiz from "../images/weeaboowiz.PNG";
 import weather from "../images/weather.PNG";
+import fourbars from "../images/4bars.PNG";
 
 export default function Portfolio() {
   return (
@@ -139,6 +140,24 @@ export default function Portfolio() {
             </a>
             <a
               href="https://github.com/atan39/Weather-Forecast"
+              className="btn btn-secondary"
+            >
+              Github Repository
+            </a>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card text-bg-info">
+            <h4>4Bars</h4>
+            <img src={fourbars} alt="4Bars" />
+            <a
+              href="https://fourbars-dab352bab680.herokuapp.com/"
+              className="btn btn-primary"
+            >
+              Live Website
+            </a>
+            <a
+              href="https://github.com/keurid/4Bars"
               className="btn btn-secondary"
             >
               Github Repository
