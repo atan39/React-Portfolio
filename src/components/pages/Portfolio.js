@@ -149,7 +149,7 @@ export default function Portfolio() {
         <div className="col-md-4">
           <div className="card text-bg-info">
             <h4>4Bars</h4>
-            <img src={fourbars} alt="fourbars" />
+            <img src={fourbars} alt="4bars" />
             <a
               href="https://fourbars-dab352bab680.herokuapp.com/"
               className="btn btn-primary"
