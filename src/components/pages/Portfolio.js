@@ -5,7 +5,7 @@ import javaQuiz from "../images/javaquiz.PNG";
 import netflix from "../images/netflixnchill.PNG";
 import weeaboowiz from "../images/weeaboowiz.PNG";
 import weather from "../images/weather.PNG";
-import fourbars from "../images/4bars.PNG";
+import fourbars from "../images/fourbars.PNG";
 
 export default function Portfolio() {
   return (
